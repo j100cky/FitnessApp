@@ -17,15 +17,15 @@ const IntenseWorkoutPlans = [
 export default function FitnessWorld() {
 
   return (
-    <ScrollView>
-      <View>
-        <Text>StartYour Fitness Journey</Text>
-        <Text>Welcome to join fitness journey, where every rep brings you closer to your best self. Let’s crush your fitness goals together!</Text>
-        <Text>Benefits of Our Fitness Programs</Text>
-        <Text>Build muscle strength</Text>
-        <Text>Improve cardiovascular health</Text>
-        <Text>Increase flexibility and balance</Text>
-        <Text>Mental clarity and focus</Text>
+    <ScrollView style={styles.container}>
+      <View style={styles.section}>
+        <Text style={styles.header}>StartYour Fitness Journey</Text>
+        <Text style={styles.workoutDescp}>Welcome to join fitness journey, where every rep brings you closer to your best self. Let’s crush your fitness goals together!</Text>
+        <Text style={styles.headerbenefit}>Benefits of Our Fitness Programs</Text>
+        <Text style={styles.text}>Build muscle strength</Text>
+        <Text style={styles.text}>Improve cardiovascular health</Text>
+        <Text style={styles.text}>Increase flexibility and balance</Text>
+        <Text style={styles.text}>Mental clarity and focus</Text>
       </View>
 
 
@@ -45,4 +45,34 @@ export default function FitnessWorld() {
   );
 }
 
+const styles = StyleSheet.create({
+    container:{
+        flex: 1,
+        padding: 20,
+        backgroundColor: 'black',
+    },
+    section:{
+        marginBottom: 20,
 
+    },
+    header:{
+        fontSize: 24,
+        fontWeight: 'bold',
+        marginBottom: 10,
+        color:'#ff7f00',
+    },
+    headerbenefit:{
+        fontSize: 24,
+        fontWeight: 'bold',
+        marginBottom: 10,
+        color: 'white',})
+
+,),
+    textfontSize: 16,
+        marginBottom: 5,
+        color:'#fff',:{
+      
+    workoutDescp:{
+        textAlign:'center',
+    },  
+    },
