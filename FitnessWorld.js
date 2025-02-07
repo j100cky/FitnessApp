@@ -65,14 +65,16 @@ const styles = StyleSheet.create({
         fontSize: 24,
         fontWeight: 'bold',
         marginBottom: 10,
-        color: 'white',})
-
-,),
-    textfontSize: 16,
+        color: 'white',
+    },
+    text:{
+        fontSize: 16,
         marginBottom: 5,
-        color:'#fff',:{
-      
+        color:'#fff',
+    },
     workoutDescp:{
         textAlign:'center',
-    },  
     },
+})
+
+
